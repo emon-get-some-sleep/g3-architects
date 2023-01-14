@@ -1,0 +1,274 @@
+/* importing work sans font  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/* universal styles  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header section styles  */
+#header{
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 100vw;
+    padding-bottom: 34px;
+    margin-bottom: 96px;
+    /* height: 100vh; */
+    
+}
+.container{
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    padding-top: 50px;
+    
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-logo{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 35px;
+}
+
+.header-text{
+    margin-top: 102px;
+    text-align: center;
+}
+.header-title{
+    font-size: 64px;
+    color: #131313;
+    font-weight: 700;
+
+}
+
+.header-description{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.button{
+    background: #FF900E;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 25px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin-bottom: 50px;;
+}
+
+.header-img{
+    display: block;
+    width: 100%;
+}
+
+/* Feature styles  */
+
+#main{
+    
+    width: 80%;
+    margin: 0 auto;
+}
+#features{
+    text-align: center;
+}
+.feature-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+}
+
+.hide{
+    display: none;
+}
+.feature-one{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+.feature-two{
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.feature-title{
+    text-align: left;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+
+.feature-description{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.feature-img img{
+    width: 100%;
+}
+.white-text{
+    color: #727272;
+}
+.black-text{
+    color: #131313;
+}
+.orange-text{
+    color: #FF900E;
+}
+
+/* here are styles for upcoming features  */
+.love-features{
+    margin-top: 130px;
+}
+.love-feature-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 144px;
+}
+.love-feature-img{
+    width: 100%;
+}
+.love-feature-one{
+    flex-basis: 50%;
+}
+.love-feature-two{
+    flex-basis: 50%;
+}
+.love-feature-title{
+    padding-left:21px;
+    text-align: left;
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+}
+
+.love-feature-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    text-align: left;
+    margin: 24px 0;
+}
+.all-features{
+    text-align: left;
+}
+.upcoming-features{
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.06);
+    line-height: 26px;
+    padding-top: 30px;
+    padding-left: 33px;
+    padding-bottom: 30px;
+    
+}
+.subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.subtext{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+
+.big{
+    text-align: center;
+    padding: 42px 45px;
+    font-size: 65px;
+    font-weight: 700;
+    position: relative;
+    top: -65px;
+    left: -150px;
+}
+.small-text{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* styles for facts  */
+
+#facts{
+    margin-top: 130px;
+}
+.facts-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fact-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.fact-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 24px;
+}
+.fact{
+    border: 1px solid #FF900E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 45px 35px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.fact:hover{
+    transform: translateY(-.5rem);
+}
+
+.fact-subtitle{
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+    margin: 10px 0 5px;
+    
+}
+.fact-subtext{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+}
