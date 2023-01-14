@@ -30,6 +30,13 @@
     .small-text{
         font-size: 16px;
     }
+    #facts{
+        text-align: center;
+    }
+    .facts-container{
+       flex-direction: column;
+       gap: 14px;
+    }
    
 }
 
@@ -77,7 +84,35 @@
     .button{
         font-size: 16px;
     }
-     
+    .sponsor-list{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .fact-title{
+        font-size: 32px;
+    }
+    .sponsor-title{
+        font-size: 32px;
+    }
    
-    
-}   
+    #footer{
+       width: 100%;
+       
+    }
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact-one{
+        flex-basis: 100%;
+    }
+    .contact-two{
+        flex-basis: 100%;
+    }
+    .contact-title{
+        font-size: 25px;
+        
+        
+    }
+
+}
+   
